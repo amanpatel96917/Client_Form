@@ -11,7 +11,7 @@ function App() {
     const formData = { name, email };
 
     try {
-      const response = await fetch('https://backend-alpha-wine.vercel.app/Person', {
+      const response = await fetch('https://backend-alpha-wine.vercel.app/person', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
